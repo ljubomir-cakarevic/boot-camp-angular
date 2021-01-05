@@ -15,6 +15,9 @@ import { BoardModeratorComponent } from './board-moderator/board-moderator.compo
 import { BoardUserComponent } from './board-user/board-user.component';
 
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
+import { FooterComponent } from './footer/footer.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { AddEmployeeComponent } from './add-employee/add-employee.component';
 
 
 
@@ -27,7 +30,10 @@ import { authInterceptorProviders } from './_helpers/auth.interceptor';
     ProfileComponent,
     BoardAdminComponent,
     BoardModeratorComponent,
-    BoardUserComponent
+    BoardUserComponent,
+    FooterComponent,
+    EmployeeComponent,
+    AddEmployeeComponent
   ],
   imports: [
     BrowserModule,
